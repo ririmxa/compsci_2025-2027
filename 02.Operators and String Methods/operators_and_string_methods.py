@@ -10,23 +10,23 @@ addition = num1 + num2
 print(addition)
 
 # TODO: Calculate subtraction
-subtraction = None
+subtraction = num1-num2
 print(subtraction)
 
 # TODO: Calculate multiplication
-multiplication = None
+multiplication = num1*num2
 print(multiplication)
 
 # TODO: Calculate division
-division = None
+division = num1/num2
 print(division)
 
 # TODO: Calculate floor division
-floor_division = None
+floor_division = num1%num2
 print(floor_division)
 
 # TODO: Calculate modulus (remainder)
-modulus = None
+modulus = num1%num2
 print(modulus)
 
 # Order of operations - what will be printed?
