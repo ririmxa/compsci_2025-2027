@@ -45,4 +45,5 @@ def final_value(basket_value,is_member):
 
 print(final_value(150,True))
 print(final_value(150,False))
+print(final_value(70, True))
 print(final_value(70,False))
