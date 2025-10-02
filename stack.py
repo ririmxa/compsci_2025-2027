@@ -56,6 +56,7 @@ if __name__ == "__main__":
     print("Stack created:", stack)
     print("Is stack empty?")
     print(stack.is_empty())
+    # test
     print("Pushing 10 onto the stack")
     stack.push(10)
     print("Stack now:", stack.display())
