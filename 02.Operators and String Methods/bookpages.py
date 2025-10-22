@@ -4,3 +4,11 @@ while book_pages!=0:
     print ("Keep reading.")
     book_pages=int(input("How many pages do you have left?: "))
 print("You can stop reading now.")
+
+
+
+user_input = int(input("Blablabla: "))
+
+def goingcrazy(max_number):
+    total_value=1
+    for max_number:
