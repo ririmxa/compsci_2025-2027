@@ -1,0 +1,4 @@
+File processing is how programs work with real data.
+Text files store lines of characters.
+Python can read files line by line.
+Always close files, or use a with-statement.
