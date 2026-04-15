@@ -15,6 +15,13 @@
 
 number = None
 
+while True:
+    try:
+        s = input("Enter an interger: ")
+        number = int(s)
+    except ValueError:
+        print("That wasn't an interger. Please enter a whole number")
+
 # TODO: write your loop here
 
 print("You entered:", number)
@@ -34,7 +41,19 @@ print("You entered:", number)
 
 # TODO: write your loop here
 
-
+while True:
+    try:
+        a = int(input("Enter integer a: "))
+        b = int(input("Enter integer b:"))
+    except ValueError:
+        print("Invalid input. Please enter whole numbers for a and b.")
+        continue
+    except ZeroDivisionError:
+        print("Cannot divide by zero.")
+        continue
+    else:
+        print(f"{a}/{b}={result}")
+        break
 # ---------------------------------------------------------------------------
 # PART 3 – VALUEERROR (parsing data safely)
 # ---------------------------------------------------------------------------
